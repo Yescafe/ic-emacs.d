@@ -5,7 +5,11 @@
 
 ;;; Codes:
 
+;; Environments
+(defconst *macos* (eq system-type 'darwin))
+
 (require 'init-prepare)
 (require 'init-packages)
 (require 'init-face)
+(require 'init-macos)
 
