@@ -15,6 +15,7 @@
 (require 'init-packages)
 (require 'init-face)
 (require 'init-macos)
+(require 'init-features)
 
 (require 'init-ivy)
 (require 'init-evil)

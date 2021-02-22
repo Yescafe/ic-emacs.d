@@ -12,3 +12,4 @@
   - init-ivy: ivy-mode, counsel-mode, ivy-rich-mode
   - init-evil: evil-mode
   - init-magit: magit
+  - init-features: 见源文件
