@@ -24,6 +24,14 @@
   (global-set-key (kbd "S-H") 'ns-do-hide-emacs)
   ;; 系统级隐藏其它窗口 Command+Option+H（不启用）
   ;;(global-set-key (kbd "S-_") 'ns-do-hide-others)
+
+  (defun open-current-file-in-finder ()
+    (interactive)
+    (shell-command "open -R ."))
+  
+  (defun open-current-file-directory ()
+    (interactive)
+    (shell-command "open ."))
   )
 
 
