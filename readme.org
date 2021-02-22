@@ -1,10 +1,13 @@
+#+STARTUP: showall
 * Ivan Chien's emacs.d
 
 原来被安利使用的是 purcell 大佬的配置。但是由于他的配置快捷键繁多，不仅很多快捷键我根本用不上，更多的快捷键我是连他是干什么的都不清楚，并且如果我有我想自己设置的键位很容易冲突。于是这里尝试从零开始写一套我自己的配置文件。
 
 ** 目前加入的功能对照表
+
   - early-init: 代理设置
   - init-package: 源设置、包管理
   - init-face: 脸设置
   - init-macos: 针对 macOS 的优化
   - init-ivy: ivy-mode, counsel-mode, ivy-rich-mode
+  - init-evil: evil-mode
