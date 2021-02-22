@@ -18,3 +18,5 @@
 
 (require 'init-ivy)
 (require 'init-evil)
+
+(require 'init-magit)

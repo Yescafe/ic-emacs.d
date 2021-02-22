@@ -11,3 +11,4 @@
   - init-macos: 针对 macOS 的优化
   - init-ivy: ivy-mode, counsel-mode, ivy-rich-mode
   - init-evil: evil-mode
+  - init-magit: magit
