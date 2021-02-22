@@ -9,3 +9,5 @@
 .cache/
 /.uptimes.el
 /projectile-bookmarks.eld
+/custom.el
+/recentf
