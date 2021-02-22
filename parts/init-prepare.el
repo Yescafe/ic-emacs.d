@@ -23,5 +23,8 @@
   (load-file user-init-file))
 (global-key-binding (kbd "<f5>") 'reload-init-file)
 
+;; 关闭警告音
+(setq ring-bell-function 'ignore)
+
 
 (provide 'init-prepare)

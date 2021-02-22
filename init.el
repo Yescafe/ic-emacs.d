@@ -7,6 +7,9 @@
 
 ;; Environments
 (defconst *macos* (eq system-type 'darwin))
+(defconst *linux* (eq system-type 'gnu/linux))
+(defconst *windows* (or (eq system-type 'windows-nt)
+			(eq system-type 'cygwin)))
 
 (setq custom-file (expand-file-name "custom.el" user-emacs-directory))
 
@@ -16,6 +19,7 @@
 (require 'init-face)
 (require 'init-macos)
 (require 'init-features)
+(require 'init-supersuper)
 
 (require 'init-ivy)
 (require 'init-evil)

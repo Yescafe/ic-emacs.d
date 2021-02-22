@@ -13,3 +13,4 @@
   - init-evil: evil-mode
   - init-magit: magit
   - init-features: 见源文件
+  - init-supersuper: 超级 Super 键
