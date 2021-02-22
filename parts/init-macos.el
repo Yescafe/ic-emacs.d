@@ -25,6 +25,7 @@
   ;; 系统级隐藏其它窗口 Command+Option+H（不启用）
   ;;(global-set-key (kbd "S-_") 'ns-do-hide-others)
 
+  ;; 在 Finder、iTerm 中打开
   (defun open-current-file-in-finder ()
     (interactive)
     (shell-command "open -R ."))
@@ -36,6 +37,11 @@
   (defun reveal-in-iterm ()
     (interactive)
     (shell-command "open -a iTerm ."))
+
+  ;; macOS `ls` 指令缺少参数 `--dired`，故改用 GNU 的 `gls`
+  (setq dired-use-ls-dired t
+        insert-directory-program "/usr/local/bin/gls"
+        dired-listing-switches "-aBhl --group-directories-first")
   )
 
 
