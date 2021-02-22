@@ -32,6 +32,10 @@
   (defun open-current-file-directory ()
     (interactive)
     (shell-command "open ."))
+
+  (defun reveal-in-iterm ()
+    (interactive)
+    (shell-command "open -a iTerm ."))
   )
 
 
