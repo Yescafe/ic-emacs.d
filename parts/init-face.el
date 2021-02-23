@@ -18,6 +18,9 @@
 (setq display-time-format "%H:%M %m/%d")
 (display-time-mode 1)
 
+;; 窗口大小
+(add-to-list 'initial-frame-alist '(fullscreen . maximized))
+(add-to-list 'default-frame-alist '(fullscreen . maximized))
 
 ;; 字体设置
 ;; 这里使用的是 FiraCode Nerd Font Mono 14 号
