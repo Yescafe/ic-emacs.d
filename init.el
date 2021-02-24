@@ -27,6 +27,7 @@
 (require 'init-packages)
 (require 'init-face)
 (require 'init-macos)
+(require 'init-ec)
 (require 'init-features)
 (require 'init-supersuper)
 

@@ -9,6 +9,7 @@
   - init-package: 源设置、包管理
   - init-face: 脸设置
   - init-macos: 针对 macOS 的优化
+  - init-ec: 针对 macOS emacs-plus/emacsclient 的优化
   - init-ivy: ivy-mode, counsel-mode, ivy-rich-mode
   - init-evil: evil-mode
   - init-magit: magit
