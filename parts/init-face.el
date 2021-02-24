@@ -19,8 +19,10 @@
 (display-time-mode 1)
 
 ;; 窗口大小
-(add-to-list 'initial-frame-alist '(fullscreen . maximized))
-(add-to-list 'default-frame-alist '(fullscreen . maximized))
+(add-hook 'before-make-frame-hook
+	  #'(lambda ()
+	      (add-to-list 'initial-frame-alist '(fullscreen . maximized))
+	      (add-to-list 'default-frame-alist '(fullscreen . maximized))))
 
 ;; 字体设置
 ;; 这里使用的是 FiraCode Nerd Font Mono 14 号
